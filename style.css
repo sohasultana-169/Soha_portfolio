@@ -1,0 +1,160 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Verdana', sans-serif;
+  line-height: 1.6;
+  color: #fff; /* White text */
+  background-color: #000; /* Black background */
+}
+
+header {
+  background-color: #111; /* Slightly lighter black for the header */
+  color: #fff;
+  padding: 2em;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+header h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+header h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+header p.intro-text {
+  font-size: 16px;
+  max-width: 700px;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+}
+
+header a {
+  color: #000;
+  background-color: #1abc9c; /* Teal accent */
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header a:hover {
+  background-color: #16a085; /* Darker teal */
+  color: #fff; /* White on hover */
+}
+
+main {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+
+h3 {
+  font-size: 24px;
+  color: #1abc9c; /* Teal */
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+li:before {
+  content: "\2022";
+  font-size: 18px;
+  color: #1abc9c; /* Teal */
+  margin-right: 10px;
+}
+
+.skills, .projects, .certifications {
+  margin-bottom: 2em;
+  padding: 20px;
+  background-color: #333; /* Dark grey boxes */
+  border-radius: 10px;
+  width: 80%;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+}
+
+.specialized-skills ul {
+  padding-left: 20px;
+}
+
+.specialized-skills li {
+  margin-bottom: 20px;
+}
+
+.projects ul, .certifications ul {
+  padding-left: 0;
+}
+
+.projects a, .certifications a {
+  color: #1abc9c; /* Teal links */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.projects a:hover, .certifications a:hover {
+  color: #fff; /* White on hover */
+}
+
+/* Profile picture styling */
+.profile-img {
+  width: 150px; /* Adjust the size as needed */
+  height: 150px;
+  border-radius: 50%; /* Make it circular */
+  object-fit: cover; /* Ensures image fits within the circle */
+  margin-bottom: 20px; /* Space between the image and the heading */
+  border: 4px solid #1abc9c; /* Add a border with the teal accent */
+}
+
+footer {
+  background-color: #222;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
+footer h3 {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+footer p {
+  font-size: 16px;
+  color: #ccc;
+}
+
+footer a {
+  color: #1993df;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
